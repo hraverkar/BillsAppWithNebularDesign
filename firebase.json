@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "bills",
+      "public": "dist/bills",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

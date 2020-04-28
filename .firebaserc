@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "billing-d7fd5": {
+      "hosting": {
+        "bills": [
+          "billing-d7fd5"
+        ]
+      }
+    }
+  }
+}
